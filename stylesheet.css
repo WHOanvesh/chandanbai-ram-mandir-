@@ -1,0 +1,277 @@
+#header{
+    clear:center;
+    width:100%;
+    text-align:center;
+    background-image: url(1302751.jpg);
+    background-position:center;
+    font-size:30px;
+    height:100px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #610404;
+    font-weight: bold;
+    text-decoration: wavy;
+    padding-bottom: 300px;
+    }
+
+    @import url('http://fonts.cdnfonts.com/css/samarkan');
+  body{
+    background-image:url(1302751.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+
+  }
+
+ 
+
+    .image{
+      height: 1300px;
+      width: 800px;
+      transition: 0.5s;
+      display: flex;
+      background-position-x: center;
+      justify-content: center;
+      align-items: center;
+      background-image: url(1234.jpeg) ;
+      background-size:cover;
+      background-position : center;
+      filter: blur(1);
+    }
+
+    .image p{
+      opacity: 0;
+      transform: scale(0);
+      backface-visibility:visible;
+      background-image: url(1302751.jpg);
+      transition: 0.8s;
+      font-size: 2rem;
+      color: rgb(0, 0, 0);
+      filter: blur(1);
+    }
+
+    ·image:hover{
+      
+      opacity: 1;
+      background-color: bisque;
+      filter: blur(1);
+
+    }
+
+    .image:hover p{
+      background-color: bisque;
+      opacity: 1;
+      transform: scale(1);
+      filter: blur(1);
+    }
+
+   
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    li, a, button {
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 50% ;
+      font-size: 50px;
+      color: black;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      
+    }
+   header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10%;
+      font-family: 'Times New Roman', Times, serif;
+      background-image: url(1302751.jpg)
+   }
+
+   .nav_links {
+    list-style: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   
+   }
+ .nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ .nav_links li a {
+    transition: all 0.3s ease 0s;
+ }
+ .nav_links li a:hover {
+    color: rgb(104, 16, 9)
+ }
+ button {
+    padding: 9px 25px;
+    background-color: #eb5600;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+ }
+
+ button:hover{
+   background-color: azure;
+
+ }
+
+ .main{
+   
+   font-size: larger;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   padding: 50px;
+   text-shadow: white;
+   
+   text-align:left;
+  }
+
+ .main1{
+   text-align: left;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   font-size: 50px;
+   font-weight: lighter;
+   padding-left: 5%;
+   text-decoration: underline;
+   color: #610404;
+
+
+ }
+
+ table , td, th{
+   border-color: antiquewhite;
+  
+   
+ }
+
+ .main2{
+  text-align: left;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  padding-left: 5%;
+  text-decoration: underline;
+  padding-top: 30px;
+  color: #610404;
+
+
+}
+
+.main3{
+  text-align: left;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 30px;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-left: 140px;
+  padding-top: 20px;
+}
+
+.main4{
+   
+  font-size: larger;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding-left: 160px;
+  text-shadow: white;
+  font-style: italic;
+  text-align:left;
+  font-weight: bold;
+ }
+
+ img{
+   float: right;
+   margin: 0px 0px 10px 10px;
+   height: 4%;
+   width: 4%;
+   padding-right: 10px;
+ }
+
+ 
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+ 
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 10px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+.title {
+  color: #bb2500;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.container2 {
+  padding: 0 10px;
+}
+
+.container2::after, .row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+.main5{
+   
+  font-size: larger;
+  text-shadow: white;
+  text-align:left;
+  font-weight: bold;
+ }
+
+ .container3 {
+  padding: 0 10px;
+}
+
+.container3::after, .row::after {
+  content: "";
+  clear: both;
+  display: inline-block;
+}
+
+.container4 {
+  padding: 0 10px;
+}
+
+.container4::after, .row::after {
+  content: "";
+  clear: both;
+  display:inline-block;
+}
